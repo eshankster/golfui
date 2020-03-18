@@ -1,3 +1,13 @@
+/**
+ * PlayerSelect
+ * - main component in the app
+ * - displays 2 dropdowns with player name and statistic variables
+ * - once selection is made from the 2, the submit active
+ * - submit will query the API layer to pull the data back
+ *
+ * ffriel
+ * 17/03/2020
+ */
 import React, { Component } from "react";
 import ReactHtmlParser from 'react-html-parser';
 import Spinner from 'react-spinner-material';
@@ -87,13 +97,10 @@ export class PlayerSelect extends Component {
       axios.get('http://localhost:3001/search?player=' + this.state.player + '&variable=' + this.state.variable)
       .then(function (response) {
         console.log(response);
-        // this.changeVisibility(false);
-        // console.log('a', JSON.parse(response.data));
         let bufferOriginal = Buffer.from(response.data[0].data);
         ReactDOM.render(<div className="actresult">{ ReactHtmlParser(bufferOriginal.toString().replace(/\n/g, "<br />")) }</div>, document.getElementById('result'));
       })
       .catch(function (error) {
-        // this.changeVisibility(false);
         console.log(error);
       });
     }

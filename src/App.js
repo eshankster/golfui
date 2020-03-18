@@ -1,3 +1,10 @@
+/**
+ * App
+ * - displays some text and calls PlayerSelect component
+ * 
+ * ffriel
+ * 17/03/2020
+ */
 import React from 'react';
 import './App.css';
 import PlayerSelect from './components/PlayerSelect';
