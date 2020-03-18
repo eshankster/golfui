@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PlayerSelect from './components/PlayerSelect';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="headertext">
+          PGA Player Statistics (2010 to 2018)
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="paratext">
+          Select a player and then a statistic variable to see results (where available) from 2010 to 2018.
+        </p>
+        <PlayerSelect />
       </header>
     </div>
   );

@@ -1,0 +1,36 @@
+Carry Distance - (AVG.)
+Driving Distance - (AVG.)
+FedExCup Standings - (POINTS)
+Greens in Regulation Percentage - (%)
+Hit Fairway Percentage - (%)
+Longest Drives - (DISTANCE)
+Official Money - (YTD VICTORIES)
+Official World Golf Ranking - (TOTAL POINTS)
+Putting Average - (AVG)
+Scoring Average (Actual) - (AVG)
+
+Adam Scott
+Bubba Watson
+Brooks Koepka
+Charl Schwartzel
+Dustin Johnson
+Edoardo Molinari
+Graeme McDowell
+Henrik Stenson
+Ian Poulter
+J.B. Holmes
+Jason Day
+Jim Furyk
+Jordan Spieth
+Justin Rose
+Lee Westwood
+Martin Kaymer
+Matt Kuchar
+Padraig Harrington
+Phil Mickelson
+Rickie Fowler
+Rory McIlroy
+Sergio Garcia
+Shane Lowry
+Tiger Woods
+Tommy Fleetwood
